@@ -8,8 +8,8 @@
 <meta property="og:title" content="HISTORY MASH — Which historical giant are you?">
 <meta property="og:description" content="7 historical matchups. Pick who you side with and discover your core values. Can you beat everyone who is sharing today?">
 <meta property="og:type" content="website">
-<meta property="og:image" content="https://isoyak.github.io/hm2/og.png">
-<meta property="og:url" content="https://isoyak.github.io/hm2/">
+<meta property="og:image" content="https://isoyak.github.io/hm3/og.png">
+<meta property="og:url" content="https://isoyak.github.io/hm3/">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#0a0a0a">
 <style>
@@ -804,10 +804,9 @@ async function finish(){
   LS.set("hm_last_arch",a.n);
   $("#rFoot").innerHTML="PORTRAITS: WIKIPEDIA / WIKIMEDIA COMMONS";
 
-  const baseUrl=location.origin+location.pathname;
-  const code=makeCode();
-  const dayNum=getPlayCount();
-  const shareUrl=`${baseUrl}?challenge=${code}`;
+  const baseUrl="https://isoyak.github.io/hm3/";
+　const code=makeCode();
+　const dayNum=getPlayCount();
 
   const matchupIds=S.cards.map(c=>ck(c));
   const pickInts=S.picks.map(p=>p?0:1);
