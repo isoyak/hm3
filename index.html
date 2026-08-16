@@ -805,8 +805,8 @@ async function finish(){
   $("#rFoot").innerHTML="PORTRAITS: WIKIPEDIA / WIKIMEDIA COMMONS";
 
   const baseUrl="https://isoyak.github.io/hm3/";
-　const code=makeCode();
-　const dayNum=getPlayCount();
+  const dayNum=getPlayCount();
+  const shareUrl=baseUrl;
 
   const matchupIds=S.cards.map(c=>ck(c));
   const pickInts=S.picks.map(p=>p?0:1);
